@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71F8A8F81D270DC8005967F6 /* main_colored.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71F8A8F71D270DC8005967F6 /* main_colored.wav */; };
+		71F922E01D1F23DA00EB07BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F922DF1D1F23DA00EB07BC /* AppDelegate.swift */; };
+		71F922E21D1F23DA00EB07BC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F922E11D1F23DA00EB07BC /* MenuViewController.swift */; };
+		71F922E71D1F23DA00EB07BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F922E61D1F23DA00EB07BC /* Assets.xcassets */; };
+		71F922EA1D1F23DA00EB07BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F922E81D1F23DA00EB07BC /* LaunchScreen.storyboard */; };
+		71F922F21D1F24A200EB07BC /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F922F11D1F24A200EB07BC /* SpriteKit.framework */; };
+		71F922F51D1F268900EB07BC /* ActualGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F922F41D1F268900EB07BC /* ActualGame.swift */; };
+		71F922F71D20281F00EB07BC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F922F61D20281E00EB07BC /* GameKit.framework */; };
+		71F922F91D20282700EB07BC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F922F81D20282700EB07BC /* StoreKit.framework */; };
+		71F922FB1D2032FC00EB07BC /* PixelFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71F922FA1D20309800EB07BC /* PixelFont.ttf */; };
+		71F922FD1D206B2100EB07BC /* ShadowLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F922FC1D206B2100EB07BC /* ShadowLabelNode.swift */; };
+		71F922FF1D20882800EB07BC /* SKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F922FE1D20882800EB07BC /* SKButton.swift */; };
+		71F923011D20B48900EB07BC /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F923001D20B48900EB07BC /* GoogleMobileAds.framework */; };
+		71F923051D220B7A00EB07BC /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F923041D220B7A00EB07BC /* SKMultilineLabel.swift */; };
+		71F923071D25DFBA00EB07BC /* MenuGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F923061D25DFBA00EB07BC /* MenuGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71F8A8F71D270DC8005967F6 /* main_colored.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = main_colored.wav; sourceTree = "<group>"; };
+		71F8A8F91D270E37005967F6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		71F922DC1D1F23DA00EB07BC /* SpeedyFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedyFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F922DF1D1F23DA00EB07BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71F922E11D1F23DA00EB07BC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		71F922E61D1F23DA00EB07BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F922E91D1F23DA00EB07BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F922EB1D1F23DA00EB07BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F922F11D1F24A200EB07BC /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		71F922F41D1F268900EB07BC /* ActualGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActualGame.swift; sourceTree = "<group>"; };
+		71F922F61D20281E00EB07BC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		71F922F81D20282700EB07BC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		71F922FA1D20309800EB07BC /* PixelFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelFont.ttf; sourceTree = "<group>"; };
+		71F922FC1D206B2100EB07BC /* ShadowLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowLabelNode.swift; sourceTree = "<group>"; };
+		71F922FE1D20882800EB07BC /* SKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKButton.swift; path = ../SKButton.swift; sourceTree = "<group>"; };
+		71F923001D20B48900EB07BC /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		71F923041D220B7A00EB07BC /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultilineLabel.swift; sourceTree = "<group>"; };
+		71F923061D25DFBA00EB07BC /* MenuGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F922D91D1F23DA00EB07BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F922F91D20282700EB07BC /* StoreKit.framework in Frameworks */,
+				71F922F21D1F24A200EB07BC /* SpriteKit.framework in Frameworks */,
+				71F923011D20B48900EB07BC /* GoogleMobileAds.framework in Frameworks */,
+				71F922F71D20281F00EB07BC /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F922D31D1F23DA00EB07BC = {
+			isa = PBXGroup;
+			children = (
+				71F922F31D1F24A700EB07BC /* Frameworks */,
+				71F922DE1D1F23DA00EB07BC /* SpeedyFast */,
+				71F922DD1D1F23DA00EB07BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71F922DD1D1F23DA00EB07BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F922DC1D1F23DA00EB07BC /* SpeedyFast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F922DE1D1F23DA00EB07BC /* SpeedyFast */ = {
+			isa = PBXGroup;
+			children = (
+				71F923041D220B7A00EB07BC /* SKMultilineLabel.swift */,
+				71F922DF1D1F23DA00EB07BC /* AppDelegate.swift */,
+				71F922FC1D206B2100EB07BC /* ShadowLabelNode.swift */,
+				71F922E11D1F23DA00EB07BC /* MenuViewController.swift */,
+				71F922FA1D20309800EB07BC /* PixelFont.ttf */,
+				71F922E61D1F23DA00EB07BC /* Assets.xcassets */,
+				71F922E81D1F23DA00EB07BC /* LaunchScreen.storyboard */,
+				71F922EB1D1F23DA00EB07BC /* Info.plist */,
+				71F922F41D1F268900EB07BC /* ActualGame.swift */,
+				71F922FE1D20882800EB07BC /* SKButton.swift */,
+				71F923061D25DFBA00EB07BC /* MenuGame.swift */,
+				71F8A8F71D270DC8005967F6 /* main_colored.wav */,
+			);
+			path = SpeedyFast;
+			sourceTree = "<group>";
+		};
+		71F922F31D1F24A700EB07BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F8A8F91D270E37005967F6 /* AVFoundation.framework */,
+				71F923001D20B48900EB07BC /* GoogleMobileAds.framework */,
+				71F922F81D20282700EB07BC /* StoreKit.framework */,
+				71F922F61D20281E00EB07BC /* GameKit.framework */,
+				71F922F11D1F24A200EB07BC /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F922DB1D1F23DA00EB07BC /* SpeedyFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F922EE1D1F23DA00EB07BC /* Build configuration list for PBXNativeTarget "SpeedyFast" */;
+			buildPhases = (
+				71F922D81D1F23DA00EB07BC /* Sources */,
+				71F922D91D1F23DA00EB07BC /* Frameworks */,
+				71F922DA1D1F23DA00EB07BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedyFast;
+			productName = SpeedyFast;
+			productReference = 71F922DC1D1F23DA00EB07BC /* SpeedyFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F922D41D1F23DA00EB07BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Noah Hanover";
+				TargetAttributes = {
+					71F922DB1D1F23DA00EB07BC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EN44UHW9U7;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 71F922D71D1F23DA00EB07BC /* Build configuration list for PBXProject "SpeedyFast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F922D31D1F23DA00EB07BC;
+			productRefGroup = 71F922DD1D1F23DA00EB07BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F922DB1D1F23DA00EB07BC /* SpeedyFast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F922DA1D1F23DA00EB07BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F8A8F81D270DC8005967F6 /* main_colored.wav in Resources */,
+				71F922FB1D2032FC00EB07BC /* PixelFont.ttf in Resources */,
+				71F922EA1D1F23DA00EB07BC /* LaunchScreen.storyboard in Resources */,
+				71F922E71D1F23DA00EB07BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F922D81D1F23DA00EB07BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F922FF1D20882800EB07BC /* SKButton.swift in Sources */,
+				71F922FD1D206B2100EB07BC /* ShadowLabelNode.swift in Sources */,
+				71F923051D220B7A00EB07BC /* SKMultilineLabel.swift in Sources */,
+				71F922E21D1F23DA00EB07BC /* MenuViewController.swift in Sources */,
+				71F923071D25DFBA00EB07BC /* MenuGame.swift in Sources */,
+				71F922F51D1F268900EB07BC /* ActualGame.swift in Sources */,
+				71F922E01D1F23DA00EB07BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71F922E81D1F23DA00EB07BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F922E91D1F23DA00EB07BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F922EC1D1F23DA00EB07BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6986f689-a2d7-4c4c-97df-7a5edae5e3bb";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71F922ED1D1F23DA00EB07BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6986f689-a2d7-4c4c-97df-7a5edae5e3bb";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F922EF1D1F23DA00EB07BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SpeedyFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hanovernoah.SpeedyFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6986f689-a2d7-4c4c-97df-7a5edae5e3bb";
+			};
+			name = Debug;
+		};
+		71F922F01D1F23DA00EB07BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SpeedyFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hanovernoah.SpeedyFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6986f689-a2d7-4c4c-97df-7a5edae5e3bb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F922D71D1F23DA00EB07BC /* Build configuration list for PBXProject "SpeedyFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F922EC1D1F23DA00EB07BC /* Debug */,
+				71F922ED1D1F23DA00EB07BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F922EE1D1F23DA00EB07BC /* Build configuration list for PBXNativeTarget "SpeedyFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F922EF1D1F23DA00EB07BC /* Debug */,
+				71F922F01D1F23DA00EB07BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F922D41D1F23DA00EB07BC /* Project object */;
+}
